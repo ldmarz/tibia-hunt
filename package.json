@@ -1,0 +1,23 @@
+{
+  "name": "tibia-hunt",
+  "version": "1.0.0",
+  "description": "electron-app to analyze tibia-hunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldmarz/tibia-hunt.git"
+  },
+  "keywords": [
+    "tibia",
+    "electron"
+  ],
+  "author": "ldmarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldmarz/tibia-hunt/issues"
+  },
+  "homepage": "https://github.com/ldmarz/tibia-hunt#readme"
+}
