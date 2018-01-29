@@ -9,10 +9,10 @@ function parser(tibiaString) {
     const [key, value] = array.trim().split(': ');
 
     if (!_.isUndefined(value) && _.indexOf(excludeKeys, key) === -1) {
-      resultString.push(value);
+      resultString.push(value.replace(',', '.'));
     }
   });
-  return resultString.join(';');
+  return resultString.join(',');
 }
 
 function makeResult() {
